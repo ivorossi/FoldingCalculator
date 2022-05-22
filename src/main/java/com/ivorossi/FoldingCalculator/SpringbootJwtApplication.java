@@ -1,13 +1,13 @@
-package com.rossiivo.FoldingCalculator;
+package com.ivorossi.FoldingCalculator;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FoldingCalculatorApplication {
+public class SpringbootJwtApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FoldingCalculatorApplication.class, args);
+		SpringApplication.run(SpringbootJwtApplication.class, args);
 	}
 
 }
