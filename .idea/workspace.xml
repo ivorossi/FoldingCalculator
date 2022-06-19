@@ -5,13 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d8669de-f124-4010-9e96-3ce35240c356" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rossiivo/FoldingCalculator/FoldingCalculatorApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/rossiivo/FoldingCalculator/FoldingCalculatorApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/service/BlackVeenerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/service/BlackVeenerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/SpringbootJwtApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/SpringbootJwtApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/configuration/RoleConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/configuration/RoleConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/controller/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/controller/BlackVeenerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/controller/BlackVeenerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/dto/BlackVeenerDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/dto/BlackVeenerDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/dto/JwtRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/dto/JwtRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/dto/JwtResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/dto/JwtResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/dto/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/dto/UserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/jwt/JwtAuthenticationEntryPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/jwt/JwtAuthenticationEntryPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/jwt/JwtRequestFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/jwt/JwtRequestFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/jwt/JwtTokenUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/jwt/JwtTokenUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/jwt/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/jwt/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/model/PriceBlackVeener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/model/PriceBlackVeener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/model/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/model/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/repository/PriceVeenerBlackRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/repository/PriceVeenerBlackRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/service/BlackVeenerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/service/BlackVeenerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/service/JWTUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/service/JWTUserDetailsService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,14 +63,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="29Mhfb41htpCdOYUrQoSMzzoLTQ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -64,16 +71,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/rossi/OneDrive/Escritorio/FoldingCalculator&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AsegCalSoft-2022" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
   <component name="RunManager" selected="Application.SpringbootJwtApplication">
     <configuration name="FoldingCalculatorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rossiivo.FoldingCalculator.FoldingCalculatorApplication" />
@@ -101,6 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringbootJwtApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="FoldingCalculator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ivorossi.FoldingCalculator.SpringbootJwtApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.FoldingCalculatorApplication" />
@@ -115,8 +128,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652928968836</updated>
+      <workItem from="1653246652046" duration="2309000" />
+      <workItem from="1653265231619" duration="643000" />
+      <workItem from="1654971536203" duration="104000" />
+      <workItem from="1655613316671" duration="5892000" />
+      <workItem from="1655650756845" duration="2828000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -128,6 +149,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FoldingCalculator$SpringbootJwtApplication.ic" NAME="SpringbootJwtApplication Coverage Results" MODIFIED="1653200259948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
