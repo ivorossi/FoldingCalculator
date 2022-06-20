@@ -2,7 +2,7 @@ package com.ivorossi.FoldingCalculator.service;
 
 import com.ivorossi.FoldingCalculator.dto.BlackVeenerDTO;
 import com.ivorossi.FoldingCalculator.model.PriceBlackVeener;
-import com.ivorossi.FoldingCalculator.repository.PriceVeenerBlackRepository;
+import com.ivorossi.FoldingCalculator.repository.PriceBlackVeenerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -10,14 +10,14 @@ import org.springframework.stereotype.Service;
 public class BlackVeenerService {
 
     @Autowired
-    PriceVeenerBlackRepository priceVeenerBlackRepository;
+    PriceBlackVeenerRepository priceBlackVeenerRepository;
 
     private float factorSelected(String veenerThickness) {
         return switch (veenerThickness) {
             case "24" -> 0.7F;
             case "22" -> 0.75F;
             case "20" -> 0.8F;
-            case "18" -> 0.9F;
+            case "18" -> 1F;
             case "16" -> 1.3F;
             case "14" -> 1.6F;
             case "12" -> 2F;
@@ -38,7 +38,7 @@ public class BlackVeenerService {
     public float blackVeenerPriceCalculator(BlackVeenerDTO blackVeenerDTO) {
         float area, mass;
 
-        PriceBlackVeener priceBlackVeener = priceVeenerBlackRepository
+        PriceBlackVeener priceBlackVeener = priceBlackVeenerRepository
                 .findByManufacture(blackVeenerDTO.getTypeManufacture());
 
         area = areaCalculator(blackVeenerDTO.getHigh(), blackVeenerDTO.getWidth());

@@ -3,10 +3,6 @@ package com.ivorossi.FoldingCalculator.model;
 import javax.persistence.*;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import lombok.Getter;
-import lombok.NonNull;
-import lombok.Setter;
-import lombok.ToString;
 
 
 import java.util.HashSet;
