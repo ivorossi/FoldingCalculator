@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d8669de-f124-4010-9e96-3ce35240c356" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_6_2022_12_19__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_6_2022_12_19__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/configuration/BlackVeenerManufacture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/configuration/BlackVeenerManufacture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/configuration/GalvanizedVeenerManufacture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/configuration/GalvanizedVeenerManufacture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/controller/PanelAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/controller/PanelAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/dto/GalvanizedPriceUpdateDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/model/PriceBlackVeener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/model/PriceBlackVeener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/model/PriceGalvanizedVeener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/model/PriceGalvanizedVeener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/service/PanelAdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/service/PanelAdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/configuration/BlackVeenerManufacture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/configuration/BlackVeenerManufacture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/configuration/GalvanizedVeenerManufacture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/configuration/GalvanizedVeenerManufacture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/controller/PanelAdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/controller/PanelAdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/model/PriceGalvanizedVeener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/model/PriceGalvanizedVeener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/service/PanelAdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/service/PanelAdminService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

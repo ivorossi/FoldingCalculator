@@ -13,18 +13,28 @@ public class BlackVeenerService {
     PriceBlackVeenerRepository priceBlackVeenerRepository;
 
     private float factorSelected(String veenerThickness) {
-        return switch (veenerThickness) {
-            case "24" -> 0.7F;
-            case "22" -> 0.75F;
-            case "20" -> 0.8F;
-            case "18" -> 1F;
-            case "16" -> 1.3F;
-            case "14" -> 1.6F;
-            case "12" -> 2F;
-            case "1/8" -> 2.7F;
-            case "3/16" -> 4F;
-            default -> 0F;
-        };
+        switch (veenerThickness){
+            case "24":
+                return 0.7F;
+            case "22":
+                return 0.75F;
+            case "20":
+                return 0.8F;
+            case "18":
+                return 1F;
+            case"16":
+                return 1.3F;
+            case"14":
+                return 1.6F;
+            case"12":
+                return 2F;
+            case"1/8":
+                return 2.7F;
+            case "3/16":
+                return 4F;
+            default:
+                return 0F;
+        }
     }
 
     private float areaCalculator(float high, float width) {

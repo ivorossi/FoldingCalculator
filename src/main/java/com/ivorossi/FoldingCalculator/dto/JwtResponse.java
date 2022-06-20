@@ -2,14 +2,12 @@ package com.ivorossi.FoldingCalculator.dto;
 
 import org.springframework.security.core.GrantedAuthority;
 
-import java.io.Serial;
 import java.io.Serializable;
 import java.util.Collection;
 
 
 public class JwtResponse implements Serializable {
 
-    @Serial
     private static final long serialVersionUID = 1L;
 
     private final String token;
