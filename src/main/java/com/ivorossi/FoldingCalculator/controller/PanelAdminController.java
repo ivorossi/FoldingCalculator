@@ -1,6 +1,7 @@
 package com.ivorossi.FoldingCalculator.controller;
+import com.ivorossi.FoldingCalculator.dto.GalvanizedPriceUpdateDTO;
 import com.ivorossi.FoldingCalculator.model.PriceBlackVeener;
-import com.ivorossi.FoldingCalculator.model.PriceGalvanizeVeener;
+import com.ivorossi.FoldingCalculator.model.PriceGalvanizedVeener;
 import com.ivorossi.FoldingCalculator.service.PanelAdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -14,23 +15,23 @@ public class PanelAdminController {
     @Autowired
     PanelAdminService panelAdminService;
 
-    @GetMapping
+    @GetMapping("/prices/black-veener")
     public List<PriceBlackVeener> getAllBlackVeener(){
         return panelAdminService.findAllBlackVeener();
     }
 
-    @PutMapping
+    @PutMapping("/prices/black-veener")
     public PriceBlackVeener updateBlackVeener(@RequestBody PriceBlackVeener priceBlackVeener){
         return panelAdminService.updateBlackVeener(priceBlackVeener);
     }
 
-    @GetMapping
-    public List<PriceGalvanizeVeener> getAllGalvanizedVeener(){
+    @GetMapping("/prices/galvanized-veener")
+    public List<PriceGalvanizedVeener> getAllGalvanizedVeener(){
         return panelAdminService.findAllGalvanizedVeener();
     }
 
-    @PutMapping
-    public PriceGalvanizeVeener updateGalvanizedVeener (@RequestBody PriceGalvanizeVeener priceGalvanizeVeener){
-        return panelAdminService.updateGalvanizedVeener(priceGalvanizeVeener);
+    @PutMapping("/prices/galvanized-veener")
+    public List<PriceGalvanizedVeener> updateGalvanizedVeener (@RequestBody GalvanizedPriceUpdateDTO galvanizedPriceUpdateDTO){
+        return panelAdminService.updateGalvanizedVeener(galvanizedPriceUpdateDTO);
     }
 }

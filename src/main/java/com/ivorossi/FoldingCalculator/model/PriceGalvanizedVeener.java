@@ -6,7 +6,7 @@ import javax.persistence.*;
 
 @Entity(name = "price_galvanize_veener")
 @Table(name = "price_galvanize_veener")
-public class PriceGalvanizeVeener {
+public class PriceGalvanizedVeener {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @JsonIgnore
@@ -16,10 +16,10 @@ public class PriceGalvanizeVeener {
     @Column
     private float price;
 
-    public PriceGalvanizeVeener() {
+    public PriceGalvanizedVeener() {
     }
 
-    public PriceGalvanizeVeener(int id, String manufacture, float price) {
+    public PriceGalvanizedVeener(int id, String manufacture, float price) {
         this.id = id;
         this.typeVeener = manufacture;
         this.price = price;

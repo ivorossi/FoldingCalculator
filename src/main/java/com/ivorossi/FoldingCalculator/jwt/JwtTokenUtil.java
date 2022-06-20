@@ -1,5 +1,6 @@
 package com.ivorossi.FoldingCalculator.jwt;
 
+import java.io.Serial;
 import java.io.Serializable;
 import java.util.Date;
 import java.util.HashMap;
@@ -17,6 +18,7 @@ import io.jsonwebtoken.SignatureAlgorithm;
 @Component
 public class JwtTokenUtil implements Serializable {
 
+    @Serial
     private static final long serialVersionUID = 1L;
 
     @Value("${jwt.expiration.time.token.seconds}")

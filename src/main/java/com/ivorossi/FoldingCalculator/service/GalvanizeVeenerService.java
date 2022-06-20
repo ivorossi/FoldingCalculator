@@ -1,15 +1,16 @@
 package com.ivorossi.FoldingCalculator.service;
 
 import com.ivorossi.FoldingCalculator.dto.GalvanizeVeenerDTO;
-import com.ivorossi.FoldingCalculator.model.PriceGalvanizeVeener;
-import com.ivorossi.FoldingCalculator.repository.PriceGalvanizeVeenerRepository;
+import com.ivorossi.FoldingCalculator.model.PriceGalvanizedVeener;
+import com.ivorossi.FoldingCalculator.repository.PriceGalvanizedVeenerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
 public class GalvanizeVeenerService {
+
     @Autowired
-    PriceGalvanizeVeenerRepository priceGalvanizeVennerRepository;
+    PriceGalvanizedVeenerRepository priceGalvanizeVennerRepository;
 
     private float numbersOfCutsAndPreviusPrice(int devolping) {
         if (1220 < devolping) {
@@ -20,12 +21,12 @@ public class GalvanizeVeenerService {
     }
 
     private float pricePerMeter(GalvanizeVeenerDTO galvanizeVeenerDTO) {
-        PriceGalvanizeVeener priceGalvanizeVeener = priceGalvanizeVennerRepository
+        PriceGalvanizedVeener priceGalvanizeVeener = priceGalvanizeVennerRepository
                 .findByTypeVeener(galvanizeVeenerDTO.getTypeVeener());
         if (galvanizeVeenerDTO.getDeveloping() > 610 && galvanizeVeenerDTO.getDeveloping() < 815) {
             return (priceGalvanizeVeener.getPrice() /
                     numbersOfCutsAndPreviusPrice(galvanizeVeenerDTO.getDeveloping())) * 0.68F;
-        } else if(galvanizeVeenerDTO.getDeveloping() > 1220 && galvanizeVeenerDTO.getDeveloping() < 2001) {
+        } else if (galvanizeVeenerDTO.getDeveloping() > 1220 && galvanizeVeenerDTO.getDeveloping() < 2001) {
             return (priceGalvanizeVeener.getPrice() /
                     numbersOfCutsAndPreviusPrice(galvanizeVeenerDTO.getDeveloping())) * 0.84F;
         } else {
