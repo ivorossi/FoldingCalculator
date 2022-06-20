@@ -1,6 +1,5 @@
 package com.ivorossi.FoldingCalculator.service;
 
-import com.ivorossi.FoldingCalculator.dto.GalvanizedPriceUpdateDTO;
 import com.ivorossi.FoldingCalculator.model.PriceBlackVeener;
 import com.ivorossi.FoldingCalculator.model.PriceGalvanizedVeener;
 import com.ivorossi.FoldingCalculator.repository.PriceBlackVeenerRepository;
@@ -12,6 +11,7 @@ import java.util.List;
 
 @Service
 public class PanelAdminService {
+    PriceBlackVeener priceBlackVeener;
 
     @Autowired
     PriceGalvanizedVeenerRepository priceGalvanizeVennerRepository;
@@ -23,24 +23,19 @@ public class PanelAdminService {
         return priceBlackVeenerRepository.findAll();
     }
 
-    public PriceBlackVeener updateBlackVeener(PriceBlackVeener priceBlackVeener) {
-        return priceBlackVeenerRepository.save(priceBlackVeener);
+    public void updateBlackVeener(PriceBlackVeener priceBlackVeener) {
+
+         priceBlackVeenerRepository.save(priceBlackVeener);
     }
 
     public List<PriceGalvanizedVeener> findAllGalvanizedVeener() {
         return priceGalvanizeVennerRepository.findAll();
     }
 
-    public List<PriceGalvanizedVeener> updateGalvanizedVeener(
-            GalvanizedPriceUpdateDTO galvanizedPriceUpdateDTO) {
+    public void updateGalvanizedVeener( PriceGalvanizedVeener priceGalvanizeVeener) {
 
-        PriceGalvanizedVeener priceGalvanizeVeener = priceGalvanizeVennerRepository.findByTypeVeener(
-                galvanizedPriceUpdateDTO.getTypeVeener()
-        );
-        priceGalvanizeVeener.setPrice(galvanizedPriceUpdateDTO.getPrice());
-        priceGalvanizeVennerRepository.save(priceGalvanizeVeener);
+         priceGalvanizeVennerRepository.save(priceGalvanizeVeener);
 
-        return priceGalvanizeVennerRepository.findAll();
     }
 
 }

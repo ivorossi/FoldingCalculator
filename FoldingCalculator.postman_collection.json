@@ -1,0 +1,310 @@
+{
+	"info": {
+		"_postman_id": "385ef88e-7d16-4b06-8967-018331b3227b",
+		"name": "FoldingCalculator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21094521"
+	},
+	"item": [
+		{
+			"name": "Autorizacion",
+			"item": [
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"gianca\",\r\n    \"password\": \"test\",\r\n    \"email\": \"ivo@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/auth/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"gianca\",\r\n    \"password\": \"test\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/auth/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Chapa negra",
+			"item": [
+				{
+					"name": "Lista chapa negra",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJnaWFuY2EiLCJleHAiOjE2NTU3NjI2ODcsImlhdCI6MTY1NTc1OTA4N30.j2D5bLAoqg-BfOCgKeLIjwLxXinUhOGbyE-XkyWeLSfL4eKE3KzYj9LrATrQWbtDouTMndwZuCJMUk6ETtauzg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/admin/prices/black-veener",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"prices",
+								"black-veener"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Precio chapa negra",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJnaWFuY2EiLCJleHAiOjE2NTU3NjI2ODcsImlhdCI6MTY1NTc1OTA4N30.j2D5bLAoqg-BfOCgKeLIjwLxXinUhOGbyE-XkyWeLSfL4eKE3KzYj9LrATrQWbtDouTMndwZuCJMUk6ETtauzg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"manufacture\":\"MMOP\",\r\n    \"price\": 2000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/admin/prices/black-veener",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"prices",
+								"black-veener"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Calculadora chapa negra",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"high\":183,\r\n    \"width\":1500,\r\n    \"typeManufacture\":\"MOP\",\r\n    \"amount\":1,\r\n    \"veenerThickness\":\"1/8\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/black",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"black"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Chapa galvanizada",
+			"item": [
+				{
+					"name": "GalvanizedVeenerCalculator",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJnaWFuY2EiLCJleHAiOjE2NTU2OTI0OTcsImlhdCI6MTY1NTY4ODg5N30.x9iD6pzxfKdEuWd6PBW80oas0aEIL2SlEXO5VNc5PXPGbtb3BkzDSSAjZrl0JpyzN6yCcg6PsHFMZbxUUc92Zw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"high\": 2440,\r\n    \"devolping\": 100,\r\n    \"typeVeener\": \"galv.25\",\r\n    \"amount\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.0.105:8080/api/v1/galvanized",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"0",
+								"105"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"galvanized"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Precio chapa galvanizada",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJnaWFuY2EiLCJleHAiOjE2NTU3NjI2ODcsImlhdCI6MTY1NTc1OTA4N30.j2D5bLAoqg-BfOCgKeLIjwLxXinUhOGbyE-XkyWeLSfL4eKE3KzYj9LrATrQWbtDouTMndwZuCJMUk6ETtauzg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":1,\r\n    \"price\":20222\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/admin/prices/galvanized-veener",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"prices",
+								"galvanized-veener"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Lista chapa galvanizada",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJnaWFuY2EiLCJleHAiOjE2NTU3NjI2ODcsImlhdCI6MTY1NTc1OTA4N30.j2D5bLAoqg-BfOCgKeLIjwLxXinUhOGbyE-XkyWeLSfL4eKE3KzYj9LrATrQWbtDouTMndwZuCJMUk6ETtauzg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/admin/prices/galvanized-veener",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"prices",
+								"galvanized-veener"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

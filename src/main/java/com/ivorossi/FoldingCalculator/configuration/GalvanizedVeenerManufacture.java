@@ -14,9 +14,9 @@ public class GalvanizedVeenerManufacture {
             PriceGalvanizedVeenerRepository priceGalvanizeVeenerRepository) {
 
         return args -> {
-            priceGalvanizeVeenerRepository.save(new PriceGalvanizedVeener(1, "prepintada", 10000f));
-            priceGalvanizeVeenerRepository.save(new PriceGalvanizedVeener(2, "galv.25", 5000f));
-            priceGalvanizeVeenerRepository.save(new PriceGalvanizedVeener(3, "galv.22", 3000f));
+            priceGalvanizeVeenerRepository.save(new PriceGalvanizedVeener( "prepintada", 10000f));
+            priceGalvanizeVeenerRepository.save(new PriceGalvanizedVeener( "galv.25", 5000f));
+            priceGalvanizeVeenerRepository.save(new PriceGalvanizedVeener("galv.22", 3000f));
         };
     }
 }

@@ -8,9 +8,8 @@ import javax.persistence.*;
 public class PriceBlackVeener {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @JsonIgnore
     private int id;
-    @Column
+    @Column(unique = true, updatable = false)
     private String manufacture;
     @Column
     private float price;
@@ -18,9 +17,13 @@ public class PriceBlackVeener {
     public PriceBlackVeener() {
     }
 
-    public PriceBlackVeener(int id, String manufacture, float price) {
-        this.id = id;
+    public PriceBlackVeener( String manufacture, float price) {
         this.manufacture = manufacture;
+        this.price = price;
+    }
+
+    public PriceBlackVeener(int id, float price) {
+        this.id = id;
         this.price = price;
     }
 

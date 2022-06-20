@@ -12,10 +12,10 @@ public class BlackVeenerManufacture {
     @Bean
     public CommandLineRunner autoSaveManufacture(PriceBlackVeenerRepository priceVeenerBlackRepository) {
         return args -> {
-            priceVeenerBlackRepository.save(new PriceBlackVeener(1, "MMOP", 650f));
-            priceVeenerBlackRepository.save(new PriceBlackVeener(2, "MMOL", 550f));
-            priceVeenerBlackRepository.save(new PriceBlackVeener(3, "MOP", 140f));
-            priceVeenerBlackRepository.save(new PriceBlackVeener(4, "MOL", 90f));
+            priceVeenerBlackRepository.save(new PriceBlackVeener( "MMOP", 650f));
+            priceVeenerBlackRepository.save(new PriceBlackVeener("MMOL", 550f));
+            priceVeenerBlackRepository.save(new PriceBlackVeener( "MOP", 140f));
+            priceVeenerBlackRepository.save(new PriceBlackVeener( "MOL", 90f));
         };
     }
 }
