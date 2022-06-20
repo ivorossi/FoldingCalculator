@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d8669de-f124-4010-9e96-3ce35240c356" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/FoldingCalculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FoldingCalculator.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/controller/PanelAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/controller/PanelAdminController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/dto/JwtRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/dto/JwtRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/dto/JwtResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/dto/JwtResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/jwt/JwtAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/jwt/JwtAuthenticationEntryPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/jwt/JwtTokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/jwt/JwtTokenUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/repository/PriceGalvanizeVeenerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/repository/PriceGalvanizeVeenerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/repository/RoleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/service/GalvanizeVeenerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/service/GalvanizeVeenerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/service/PanelAdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/service/PanelAdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/service/GalvanizeVeenerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivorossi/FoldingCalculator/service/GalvanizeVeenerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/service/JWTUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/service/JWTUserDetailsService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +122,7 @@
       <workItem from="1654971536203" duration="104000" />
       <workItem from="1655613316671" duration="5892000" />
       <workItem from="1655650756845" duration="3680000" />
+      <workItem from="1655741322724" duration="1319000" />
     </task>
     <servers />
   </component>

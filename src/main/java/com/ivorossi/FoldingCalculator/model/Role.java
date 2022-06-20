@@ -1,15 +1,9 @@
 package com.ivorossi.FoldingCalculator.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
 import javax.persistence.*;
 
 @Entity
 @Table(name = "role")
-
 public class Role {
 
     private static final long serialVersionUID = 1L;

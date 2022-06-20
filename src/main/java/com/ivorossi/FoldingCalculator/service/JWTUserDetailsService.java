@@ -47,9 +47,7 @@ public class JWTUserDetailsService implements UserDetailsService {
         }
 
         List<GrantedAuthority> authorities = new ArrayList<>();
-        user.getRoles().forEach(role -> {
-            authorities.add(new SimpleGrantedAuthority(role.getRoleName()));
-        });
+        authorities.add(new SimpleGrantedAuthority(user.getRole().getRoleName()));
 
         return new org.springframework.security.core.userdetails.
                 User(user.getUsername(), user.getPassword(), authorities);
@@ -73,8 +71,7 @@ public class JWTUserDetailsService implements UserDetailsService {
             newUser.setUsername(user.getUsername());
             newUser.setPassword(encryptPassword(user.getPassword()));
             newUser.setEmail(user.getEmail());
-            newUser.getRoles().add(standardRole);
-
+            newUser.setRole(standardRole);
 
             return userRepository.save(newUser);
         }
