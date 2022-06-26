@@ -52,7 +52,7 @@ public class JWTUserDetailsService implements UserDetailsService {
         return new org.springframework.security.core.userdetails.
                 User(user.getUsername(), user.getPassword(), authorities);
     }
-
+/*
     private boolean validateEmail(String email) {
         Pattern pattern = Pattern.compile(EMAIL_PATTERN);
         Matcher matcher = pattern.matcher(email);
@@ -77,5 +77,5 @@ public class JWTUserDetailsService implements UserDetailsService {
         }
         return null;
     }
-
+*/
 }
