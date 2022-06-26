@@ -66,7 +66,7 @@ public class JWTUserDetailsService implements UserDetailsService {
     public User save(UserDTO user) {
         if (validateEmail(user.getEmail())) {
             User newUser = new User();
-            Role standardRole = roleRepository.findById(1L).get();
+            Role standardRole = roleRepository.findById(2L).get();
 
             newUser.setUsername(user.getUsername());
             newUser.setPassword(encryptPassword(user.getPassword()));
