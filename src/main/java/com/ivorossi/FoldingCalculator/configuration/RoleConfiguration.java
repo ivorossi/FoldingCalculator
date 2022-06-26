@@ -11,8 +11,8 @@ public class RoleConfiguration {
     @Bean
     public CommandLineRunner autoSaveRoles(RoleRepository roleRepository) {
         return args -> {
-            roleRepository.save(new Role(1L, "STANDARD"));
-            roleRepository.save(new Role(2L, "ADMIN"));
+            roleRepository.save(new Role("STANDARD"));
+            roleRepository.save(new Role("ADMIN"));
         };
     }
 }
