@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/FoldingCalculator.iml" filepath="$PROJECT_DIR$/.idea/FoldingCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FoldingCalculator.iml" filepath="$PROJECT_DIR$/FoldingCalculator.iml" />
     </modules>
   </component>
 </project>
