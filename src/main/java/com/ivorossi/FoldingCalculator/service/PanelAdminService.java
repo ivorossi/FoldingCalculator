@@ -7,6 +7,7 @@ import com.ivorossi.FoldingCalculator.repository.PriceGalvanizedVeenerRepository
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Comparator;
 import java.util.List;
 
 @Service
@@ -20,7 +21,9 @@ public class PanelAdminService {
     PriceBlackVeenerRepository priceBlackVeenerRepository;
 
     public List<PriceBlackVeener> findAllBlackVeener() {
-        return priceBlackVeenerRepository.findAll();
+        List<PriceBlackVeener> priceBlackVeenerList = priceBlackVeenerRepository.findAll();
+        priceBlackVeenerList.sort(Comparator.comparing(PriceBlackVeener::getId));
+        return priceBlackVeenerList;
     }
 
     public void updateBlackVeener(PriceBlackVeener priceBlackVeener) {
@@ -29,7 +32,9 @@ public class PanelAdminService {
     }
 
     public List<PriceGalvanizedVeener> findAllGalvanizedVeener() {
-        return priceGalvanizeVennerRepository.findAll();
+        List<PriceGalvanizedVeener> priceGalvanizedVeenerList = priceGalvanizeVennerRepository.findAll();
+        priceGalvanizedVeenerList.sort(Comparator.comparing(PriceGalvanizedVeener::getId));
+        return priceGalvanizedVeenerList;
     }
 
     public void updateGalvanizedVeener( PriceGalvanizedVeener priceGalvanizeVeener) {
