@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d8669de-f124-4010-9e96-3ce35240c356" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/service/JWTUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivorossi/FoldingCalculator/service/JWTUserDetailsService.java" afterDir="false" />
-    </list>
+    <list default="true" id="2d8669de-f124-4010-9e96-3ce35240c356" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
