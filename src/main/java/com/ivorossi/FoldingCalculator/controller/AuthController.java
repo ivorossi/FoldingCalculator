@@ -43,12 +43,11 @@ public class AuthController {
         return ResponseEntity.ok(new JwtResponse(token, userDetails.getAuthorities()));
     }
 
-    /*
+
     @PostMapping(value = "register")
     public ResponseEntity<?> saveUser(@RequestBody UserDTO user) throws Exception {
         return ResponseEntity.ok(userDetailsService.save(user));
     }
-    */
 
     private void authenticate(String username, String password) throws Exception {
         try {
@@ -59,6 +58,4 @@ public class AuthController {
             throw new Exception("INVALID_CREDENTIALS", e);
         }
     }
-
-
 }
